@@ -3,7 +3,8 @@ import webbrowser
 import requests
 import json
 #создаем бота, указываю токен, полученный при регистрации
-bot = telebot.TeleBot('6259295906:AAE1-F5EimSMghIVzWfPOASmQH_LkJrZ0JY')
+api = ''
+bot = telebot.TeleBot(api)
 api_weather = 'd230b11a87048e77a21dcc7e82527a69'
 
 #обрабатываем полученные команды
